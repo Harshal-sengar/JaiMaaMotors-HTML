@@ -1,0 +1,163 @@
+body{
+    background-color:whitesmoke;
+}
+/* nabar */
+
+.nav-link{
+    color:white;
+  }
+  .navbar{
+    padding:0px;
+  }
+  .navbar-brand{
+    font-weight:bold;
+    font-size: 2.5rem;    
+  }
+  #navbarDropdown{
+    color:white;
+  }
+  .nav-item{
+    padding:0 18px;
+  }
+  .nav-link{
+    font-size:1.2rem;
+    font-family:"Montserrat-Black";
+    padding-left: 20px;
+    color: white;
+  }
+  /* .test-drive{
+    background-image: url("https://www.tvsmotor.com/assets/img/brands/test-ride.svg");
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 80px 0px;
+    background-position-x: left;
+    padding: left 20px; ;
+  }
+  .book-vehicle{
+    background-image: url("https://www.tvsmotor.com/assets/img/brands/book-online.svg");
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 80px 0px;
+    background-position-x: left;
+  } */
+
+/* image and form */
+
+
+.row{
+margin-top: 40px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.image{
+    margin-left:40px ;
+    padding: 0px;
+}
+.form{
+    background-color: white;
+    padding: 0px;
+    margin-left: 80px;
+}
+select
+{
+  width: 100%;
+  padding-top:20px;
+}
+input, select{
+  outline: 0;
+  border: 0px;
+  border-bottom: 1px solid black; 
+}
+input:focus{
+  border-bottom: 2px solid black;
+}
+
+.checkbox{
+  width: auto;
+  margin-top: 30px;
+  height: 20px;
+  width: 20px;
+
+}
+.form-button:hover{
+  color: white;
+  background-color: #183883;
+  border-color: white;
+}
+.form-button{
+  width: 130px;
+
+}
+.terms-conditions
+{
+  padding-top: -50px;
+  position: relative;
+  bottom: 28px;
+  left: 30px;
+}
+
+.inside-form
+{
+    padding: 40px;
+}
+input{
+    width: 100%;
+    padding-top:20px;
+}
+br{
+    margin-bottom: 20px;
+}
+ /* footer */
+ .container{
+  
+  margin: 0px;
+  color: white;
+  padding-left: 100px;
+  background-color: #183883;
+  width: 1500px;
+  padding-top: 20px;
+  
+}
+#footer{
+  background-color: #183883;
+}
+.footer-button{
+  width: 300px;
+}
+.btn-lg{
+  border-color: #183883;
+}
+.footer-button:hover{
+  color: white;
+  background-color: #183883;
+  border-color: white;
+}
+p{
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+footer
+{
+  background-color: #183883;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

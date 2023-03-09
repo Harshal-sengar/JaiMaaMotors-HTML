@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://1000logos.net/wp-content/uploads/2020/07/TVS-Motor-Logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./BookVehicle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jai Maa Motors </title>
+    <style>
+      .center-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	/****** center box
+	width: 300px;
+	height: 300px;
+	border: solid 1px #aaa;
+	******/
+}
+
+.loader-triangle-3 polygon {
+	stroke-dasharray: 17;
+	animation: anm-tr-3-move 2.5s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;
+}
+@keyframes anm-tr-3-move {
+	to {
+		stroke-dashoffset: 136;
+	}
+}
+#harshal{
+  display: none;
+}
+#loader{
+  background: #202628;
+}
+    </style>
+  </head>
+  <body onload="loader()">
+    <div id="loader">
+      <div class="center-body">
+        <div class="loader-triangle-3">
+            <svg id="triangle" width="70px" height="70px" viewbox="-3 -4 39 39">
+                <polygon fill="currentcolor" stroke="#ffeb3b" stroke-width="2" points="16,0 32,32 0,32"></polygon>
+        </svg>
+        </div>
+        </div>
+    </div>
+   <div id="harshal">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <img src="https://images.hindustantimes.com/auto/img/2020/08/25/600x338/tvs-motor-company-vector-logo_1598369678632_1598369685883.png" alt="tvs-img" height=80px width=80px>
+      <a class="navbar-brand" href="/">&nbsp;Jai Maa Motors</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav jaimaa ms-auto ">
+         
+          <li class="nav-item" ><a class="nav-link book-vehicle" style="color: white;" role="button" href="BookVehicle.html">Book Vehicle</a></li>
+          <li class="nav-item"><a class="nav-link test-drive" style="color:white" href="ServiceAppointment.html">Service Appointment</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#s" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Customers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="UserManual.html">USER MANUAL</a></li>
+              <li><a class="dropdown-item" href="CustomerSupport.html">CUSTOMER SUPPORT</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row">
+        <div class="col-sm-5 image">
+            <img src="https://www.tvsmotor.com/assets/img/tvs-credit-new20201001.jpg" alt="" width="550px">
+        </div>
+        <div class="col-sm-5 form">
+          <div class="inside-form ">
+            <h1 style="font-weight: bold;">Book Online</h1>
+          <p>Book your vehicle now and ride later.</p>
+          <form action="/BookVehicle" method="post">
+            <input type="text", name="name" placeholder="Name*" aria-required="true" >
+            
+            <br>
+            <br>
+            <input type="tel", name="number", placeholder="Phone*">
+            <br>
+            <br>
+            <input type="text", name="address", placeholder="Address*">
+            <br>
+            <br>
+            <select name="vehicle">
+              
+              <option >Select Vehicle</option>
+              <option value="TVS Apache RTR 180">TVS Apache RTR 200</option>
+              <option value="TVS Apache RTR 160">TVS Apache RTR 160</option>
+              <option value="TVS Apache RTR 160 4V">TVS Apache RTR 160 4V</option>
+              <option value="TVS Apache RTR 180">TVS Apache RTR 180</option>
+              <option value="TVS Jupiter">TVS Jupiter </option>
+              <option value="TVS Jupter 125">TVS Jupiter 125</option>
+              <option value="TVS Star City+">TVS Star City+</option>
+              <option value="TVS Raider">Tvs Raider</option>
+              <option value="TVS Sport">TVS Sport</option>
+              <option value="TVS XL100">TVS XL100</option>
+              <option value="TVS Ronin">TVS Ronin</option>
+            </select>
+            <input type="checkbox" class="checkbox" id="terms&conditions"> 
+            <label for="terms&conditions" class="terms-conditions">I accept the terms & conditions and authorise to Jai Maa Motors to contact me via SMS, email, WhatsApp and other modes of communication</label>
+            <input type="submit" role="button" onclick="thanks()" class="btn-lg form-button">
+          </form>
+          <!-- <button type="submit" class="btn-lg form-button" >Submit</button> -->
+          </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer><div style="width:100%;" class="container">
+      <div class="row">
+          <div class="col-md-4 align-self-center">
+              <h4>Address</h4>
+              <br></br>
+              <p>SikandraRao Road</p>
+              <p>Devi Nagar</p>
+              <p>Hathras Junction</p>
+              <p>Hathras- 204102</p>
+              <p>Utter Pradesh</p>
+          </div>
+          <div class="col-md-4 justify-content-center">
+              <h4>Call Us On</h4>
+              <br></br>
+              <p>Ph: 9411413429</p>
+          </div>
+          <div class="col-md-4 justify-content-center">
+              <h4>Mail Us On</h4>
+              <br></br>
+              <p>jaimaamotors2019@gmail.com</p>
+              <button class="btn-lg footer-button" onClick=ButtonMailto() >Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+    <script>
+      function thanks()
+      {
+        alert("Thanks for Submiting");
+      }
+      function loader()
+      
+      {
+        setTimeout(showpage, 3000);
+      }
+      function showpage()
+      {
+        document.getElementById("loader").style.display="none";
+        document.getElementById("harshal").style.display="inline";
+      }
+    </script>
+  </body>
+</html>

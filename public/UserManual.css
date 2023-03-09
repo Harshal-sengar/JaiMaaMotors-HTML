@@ -1,0 +1,135 @@
+body{
+    background-color:whitesmoke;
+}
+/* nabar */
+
+.nav-link{
+    color:white;
+  }
+  .navbar{
+    padding:0px;
+  }
+  .navbar-brand{
+    font-weight:bold;
+    font-size: 2.5rem;    
+  }
+  #navbarDropdown{
+    color:white;
+  }
+  .nav-item{
+    padding:0 18px;
+  }
+  .nav-link{
+    font-size:1.2rem;
+    font-family:"Montserrat-Black";
+    padding-left: 20px;
+    color: white;
+  }
+  /* .test-drive{
+    background-image: url("https://www.tvsmotor.com/assets/img/brands/test-ride.svg");
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 80px 0px;
+    background-position-x: left;
+    padding: left 20px; ;
+  }
+  .book-vehicle{
+    background-image: url("https://www.tvsmotor.com/assets/img/brands/book-online.svg");
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 80px 0px;
+    background-position-x: left;
+  } */
+
+.user-manual{
+    background-color: rgba(13,56,136,.8);
+    color: white;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    bottom: 150px;
+    height: 150px;
+}
+.manuals{
+    padding: 45px;
+    
+    padding-top: 50px;
+}
+h3{
+    padding-left: 60px;
+    position: relative;
+    width: 1100px;
+    left: 38px;
+    bottom: 80px;
+    font-weight: 750;
+    font-family: Roboto,sans-serif;
+    background-color: transparent;
+}
+h1
+{
+  position:relative;
+  left: 100px;
+  width: 500px;
+}
+.scooters{
+  font-size: 24px;
+  font-weight: 450;
+  position: relative;
+  left: 100px;
+  width: auto;
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+ /* footer */
+ .container{
+  
+  margin: 0px;
+  color: white;
+  padding-left: 100px;
+  background-color: #183883;
+  width: 1500px;
+  padding-top: 20px;
+  
+}
+#footer{
+  background-color: #183883;
+}
+.footer-button{
+  width: 300px;
+}
+.btn-lg{
+  border-color: #183883;
+}
+.footer-button:hover{
+  color: white;
+  background-color: #183883;
+  border-color: white;
+}
+p{
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+footer
+{
+  background-color: #183883;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

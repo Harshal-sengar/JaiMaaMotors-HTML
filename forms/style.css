@@ -1,0 +1,120 @@
+#title{
+  image-resolution: 300dpi;
+
+}
+#vehicle{
+  margin-top:30px;
+  margin-bottom:30px;
+
+}
+.vehicle-option{
+  padding-right: 700px;
+
+}
+.vehicle-navbar{
+  padding:0px;
+}
+.vehicle-button{
+  color:black;
+    margin-top: 10px;
+}
+.row{
+  margin:0px;
+  padding-top:20px;
+}
+.scooter-image{
+height:80px;
+}
+.scooter-picture{
+  padding:0 40px;
+}
+.scooter{
+  background-color: #FCD8D4;
+}
+.moped{
+  background-color: #F8E2CF;
+}
+.motorcycle{
+  background-color: #F5C6AA;
+}
+.card{
+  text-size:20px;
+  width:20%;
+  height:20%;
+  border:2px solid blue;
+
+  text-align:right;
+  margin-left:10px;
+}
+.list-group-horizontal-xxl{
+
+}
+h5{
+  float:right;
+}
+.nav-link{
+  color:white;
+}
+.navbar{
+  padding:0px;
+}
+.navbar-brand{
+  font-weight:bold;
+  font-size: 2.5rem;
+}
+#navbarDropdown{
+  color:white;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat-Black";
+}
+.container-fluid{
+  padding:0px;
+}
+.carousel-item{
+  text-align:center;
+}
+
+/*         vehicle  8*/
+h1{
+  font-family: "Roboto",sans-serif;
+font-weight: 700;
+font-display: swap;
+font-size: 30px;
+display: block;
+}
+#title-line{
+  margin:0px;
+  font-size:13px;
+
+}
+.title-div{
+  background-color:#183883;
+  color:white;
+  text-size:20px;
+  padding-left:30px;
+  padding-top:35px;
+  width: 70%;
+  height:8rem;
+}
+@media(max-width:992px){
+  .btn{
+    margin:10px;
+    height: 100px;
+    width:120px;
+    text-size:50px;
+  }
+  #navbarDropdown{
+    padding-top:20px;
+    width:90px;
+    height:80px;
+  }
+  .dropdown-item{
+    font-size:x-large;
+    width:30%;
+  }
+}
